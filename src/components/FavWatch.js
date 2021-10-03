@@ -51,7 +51,7 @@ class FavWatch extends Component {
     handelDispalyUpdateModel = async (item) => {
         await this.setState({
             selectedItem: item,
-            showModel: !showModel
+            showModel: !this.state.showModel
         })
     }
 
